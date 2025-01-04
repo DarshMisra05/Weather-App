@@ -1,0 +1,36 @@
+:root {
+    --bg_main: #0a1f44;
+    --text_light: #fff;
+    --text_med: #53627c;
+    --text_dark: #1e2432;
+    --red: #c92641;
+    --darkred: #670a18;
+    --orange: #ff8c00;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: normal;
+  }
+  
+  button{
+    cursor: pointer;
+  }
+
+  input{
+    -webkit-appearance: none;
+  }
+
+  button, input{
+    border: none;
+    background: none;
+    outline: none;
+    color: inherit;
+  }
+
+  img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
